@@ -4,7 +4,6 @@ import bellIcon from "../../assets/bell.png";
 import logoutIcon from "../../assets/logout.png";
 import { podcastOptions } from "../../constantData/index";
 import PodcastCard from "./PodcastCard";
-import { GoHome } from "react-icons/go";
 import FileUpload from "../../components/UploadFileComponent/FileUpload";
 import FilesTable from "../../components/FilesTable/FilesTable";
 import AccountSettings from "../../components/AccountSettings/AccountSettings";
@@ -73,7 +72,7 @@ const AddPodcastPage = () => {
       </div>
       <div className="project_details_page_main">
         <div className="project_details_page_breadcrumb">
-          {`${(<GoHome />)} ${breadcrumb}`}
+          {`${breadcrumb}`}
           <div className="project_details_page_breadcrumb_Icons">
             <div>
               <img src={bellIcon} alt="bellIcon" />
