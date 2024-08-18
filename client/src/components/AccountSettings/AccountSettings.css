@@ -1,0 +1,104 @@
+.account-settings {
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+}
+
+.account-settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.account-settings-user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account-settings-user-info img {
+  width: 150px;
+  height: 150px;
+}
+
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-details {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.subscriptions {
+  margin-top: 30px;
+}
+
+.subscriptions p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.no-subscription {
+  background-color: #f3e7fe;
+  border: 1px solid #dfb4fe;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  color: #6b10e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.no-subscription p {
+  margin: 0;
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.no-subscription a {
+  color: #6b10e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.upgrade-button {
+  background-color: #6b10e5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}

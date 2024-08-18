@@ -1,0 +1,10 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #333;
+}

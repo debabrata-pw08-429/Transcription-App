@@ -1,0 +1,122 @@
+.file-upload {
+  background-color: white;
+  border-radius: 8px;
+  padding: 50px 50px;
+  padding-bottom: 90px;
+  text-align: center;
+  margin-top: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upload-icon {
+  font-size: 5rem;
+  color: #7b24cb;
+}
+
+.file-upload p {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.file-upload small {
+  color: #999;
+  display: block;
+  margin-bottom: 21px;
+}
+
+.select-file-btn {
+  background-color: white;
+  color: #7b24cb;
+  padding: 8px 16px;
+  border: 2px solid #7b24cb;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.select-file-btn:hover {
+  background-color: #7b24cb;
+  color: white;
+}
+
+.file-upload {
+  text-align: center;
+  padding: 20px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-header-youtube {
+  display: flex;
+  align-items: center;
+}
+
+.modal-header-youtube h2 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.youtube-icon {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.close-btn {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.upload-btn {
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: flex-end;
+}

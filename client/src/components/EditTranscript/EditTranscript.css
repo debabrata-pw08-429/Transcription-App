@@ -1,0 +1,89 @@
+.edit-transcript {
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.edit-transcript-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.edit-transcript-header > div {
+  display: flex;
+  align-items: center;
+}
+
+.edit-transcript-header > div > h2 {
+  margin: 0px;
+}
+
+.back-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.transcript-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.speaker {
+  color: #6b10e5;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.transcript-text {
+  width: 100%;
+  height: 300px;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discard-button,
+.save-button,
+.edit-button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.discard-button {
+  background-color: #fff;
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+  margin-right: 10px;
+}
+
+.save-button {
+  background-color: #000;
+  color: #fff;
+}
+
+.edit-button {
+  background-color: #000;
+  color: #fff;
+}

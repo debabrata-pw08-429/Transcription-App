@@ -1,0 +1,115 @@
+a {
+  text-decoration: none;
+  color: #085fce;
+}
+
+hr {
+  margin: 20px auto;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+form {
+  font-weight: 500;
+}
+
+form input {
+  box-sizing: border-box;
+}
+
+form p {
+  font-size: smaller;
+  text-align: center;
+}
+
+.register_container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.register_container .register_left {
+  background-image: url("../../assets//mask-group.png");
+  background-size: cover;
+}
+
+.register_container .register_right {
+  padding: 30px;
+  background-color: #f5f6fa;
+}
+
+.register_container .register_right .register_right_msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 50px;
+}
+
+.register_container .register_right .register_right_msg img:nth-child(1) {
+  width: 50px;
+}
+.register_container .register_right .register_right_msg img:nth-child(2) {
+  width: 150px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  background-color: white;
+}
+
+.register-options {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.register-options > label {
+  margin-right: 15px;
+}
+
+.register-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #7e22ce;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.or-divider {
+  width: 8%;
+  margin: auto;
+  background-color: whitesmoke;
+  margin-top: -36px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.google-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  margin-top: 25px;
+}
+
+.google-register img {
+  width: 21px;
+  margin-right: 12px;
+}

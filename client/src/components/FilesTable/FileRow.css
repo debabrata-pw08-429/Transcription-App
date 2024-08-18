@@ -1,0 +1,46 @@
+tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.status.in-progress {
+  background-color: #ffe599;
+  color: #333;
+}
+
+.status.done {
+  background-color: #d9b3ff;
+  color: #7b24cb;
+}
+
+.view-btn,
+.delete-btn {
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.view-btn {
+  color: #333;
+  border: 1px solid gray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.delete-btn {
+  color: #ff3333;
+  border: 1px solid gray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

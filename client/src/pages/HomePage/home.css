@@ -1,0 +1,38 @@
+.header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: white;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+.icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.all_projects_container {
+  width: 80%;
+  margin: auto;
+  color: #7b24cb;
+}
+.all_projects_container > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 21px auto;
+}
+.all_projects_container > div:nth-child(2) {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,22 @@
+.files-table-container {
+  margin: 30px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.files-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  background-color: #f2f2f2;
+}

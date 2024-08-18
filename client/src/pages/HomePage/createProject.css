@@ -1,0 +1,124 @@
+.create-project {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.create-project h1 {
+  color: #7b24cb;
+  font-size: 39px;
+  margin-top: -50px;
+}
+
+.create-project .image-container {
+  margin: 20px 0;
+}
+
+.create-project .image-container img {
+  width: 442.49px;
+  height: 296.9px;
+}
+
+.create-project p {
+  max-width: 780px;
+  margin: 0 auto 20px;
+  color: #6c757d;
+}
+
+.create-button {
+  background-color: #221936;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.create-button span {
+  font-weight: 700;
+  width: 100%;
+  margin: 12px;
+  padding: 4px 8px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  color: black;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.modal-content .error-text {
+  color: red;
+  margin-top: 5px;
+  font-size: smaller;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  background: transparent;
+  color: red;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.create-button-modal {
+  background-color: #7b24cb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

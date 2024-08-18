@@ -1,0 +1,34 @@
+.podcast-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 21px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.podcast-card:hover {
+  cursor: pointer;
+}
+
+.card-image img {
+  width: 50px;
+}
+
+.card-image-upload {
+  background-color: #f3e8ff;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  margin: 0px;
+}
+
+.card-content p {
+  margin: 0px;
+  font-size: 0.9rem;
+  color: #555;
+}
